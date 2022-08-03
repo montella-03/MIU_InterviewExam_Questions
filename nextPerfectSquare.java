@@ -16,3 +16,26 @@ public class array {
     }
     
 }
+// 
+public class array {
+
+    public static void main(String[] args) {
+        System.out.println(name(6));
+    }
+
+    public static int name(int n) {
+        if (n < 0) {
+            return 0;
+        }
+        int ans = 1;
+        for (int i = 0;; i++) {
+            ans = i * i;
+            if (n < ans) {
+                break;
+            }
+        }
+        return ans;
+        
+        
+    }
+}
