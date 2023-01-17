@@ -1,0 +1,19 @@
+/**
+ * count
+ */
+public class count {
+
+    public static void main(String[] args) {
+        System.out.println(twoFactorCount(64));
+
+    }
+
+    public static int twoFactorCount(int m) {
+        int count = 0;
+        while (m % 2 == 0) {
+            count += 1;
+            m /= 2;
+        }
+        return count;
+    }
+}
