@@ -1,0 +1,23 @@
+public class goodSpeed {
+    public static void main(String[] args) {
+        int[] a = { 3, 1, 6, 1, 4, 3, 3 };
+        System.out.println(goodspeed(a));
+
+    }
+
+    public static int goodspeed(int[] a) {
+        int result = 0;
+        for (int i = 0; i < a.length; i++) {
+            int count = 0;
+            for (int j = 0; j < a.length; j++) {
+                if (a[i] == a[j])
+                    count++;
+            }
+            if (count > 3)
+                result = 0;
+            else
+                result = 1;
+        }
+        return result;
+    }
+}
