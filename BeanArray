@@ -1,0 +1,24 @@
+public class Bean {
+    public static void main(String[] args) {
+        int[] a = { 4, 1, 8 };
+        System.out.println(bean(a));
+    }
+
+    public static int bean(int[] a) {
+        int result = 1;
+        for (int i = 0; i < a.length; i++) {
+            int number = a[i];
+            int count = 0;
+            for (int j = 0; j < a.length; j++) {
+                if (number * 2 == a[j] || (number * 2) + 1 == a[j] || number / 2 == a[j]) {
+                    count = 1;
+                    break;
+                }
+
+            }
+            if(count==0)
+                result = 0;
+        }
+        return result;
+    }
+}
