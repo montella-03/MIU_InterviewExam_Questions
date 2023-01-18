@@ -1,0 +1,28 @@
+public class Filter {
+    public static void main(String[] args) {
+        int[] a = { 1, 2,7,13, 3, 9, 6, 11 };
+        System.out.println(filter(a));
+
+    }
+
+    public static int filter(int[] a) {
+        boolean has9 = false, has11 = false, has7 = false, has13 = false;
+        int result = 1;
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] == 9)
+                has9 = true;
+            if (a[i] == 11)
+                has11 = true;
+            if (a[i] == 7)
+                has7 = true;
+            if (a[i] == 13)
+                has13 = true;
+        }
+        if(!has9 && !has11)
+            result = 0;
+        if(has7 && has13)
+            result = 0;
+
+        return result;
+    }
+}
