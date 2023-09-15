@@ -1,3 +1,5 @@
+package Mius;
+
 public class Commennumberof2arrey {
 
 
