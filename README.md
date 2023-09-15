@@ -41,51 +41,6 @@ data-structures-repo/
 │ ├── SinglyLinkedList.java
 │ ├── DoublyLinkedList.java
 │ ├── ...
-│
-├── stack/
-│ ├── Stack.java
-│ ├── ...
-│
-├── queue/
-│ ├── Queue.java
-│ ├── PriorityQueue.java
-│ ├── ...
-│
-├── trees/
-│ ├── BinaryTree.java
-│ ├── BinarySearchTree.java
-│ ├── AVLTree.java
-│ ├── ...
-│
-├── graphs/
-│ ├── AdjacencyList.java
-│ ├── AdjacencyMatrix.java
-│ ├── BFS.java
-│ ├── DFS.java
-│ ├── ...
-│
-├── hash_table/
-│ ├── HashTable.java
-│ ├── ...
-│
-├── heap/
-│ ├── MinHeap.java
-│ ├── MaxHeap.java
-│ ├── ...
-│
-├── trie/
-│ ├── Trie.java
-│ ├── ...
-│
-├── graph_algorithms/
-│ ├── BFS.java
-│ ├── DFS.java
-│ ├── ...
-│
-├── LICENSE
-├── README.md
-├── .gitignore
-
 
 ## Usage
 
@@ -108,7 +63,8 @@ To compile and run the code, use standard Java development tools such as javac a
 
 To run unit tests (if available), use testing frameworks like JUnit.
 
-#Contributing
+## Contributing
+
 Contributions to this repository are welcome! If you have improvements or want to add new data structures, please follow these steps:
 
 Fork the repository.
@@ -121,7 +77,7 @@ git checkout -b feature/new-data-structure
 Make your changes and ensure that the code follows best practices and is well-documented.*
 
 
-License
+## License
 This repository is licensed under the MIT License. See the LICENSE file for details.
 
 Feel free to explore, learn, and contribute to this repository. Happy coding!
